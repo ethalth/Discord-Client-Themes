@@ -1,2 +1,2 @@
 # Discord-Client-Themes
-Plajdidkdrnnrrboeembwkwpqo2ieur
+Client Themes made from AI Because I am lazy 🥀
