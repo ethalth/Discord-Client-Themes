@@ -1,60 +1,69 @@
 {
   "name": "Life Is Strange: Stormy Lighthouse",
-  "description": "A stormy Life Is Strange theme",
+  "description": "A cold, stormy Life Is Strange theme",
   "authors": [
     {
-      "name": "ethalth",
-      "id": "1362067549990420610"
+      "name": "ethalth"
     }
   ],
   "spec": 2,
   "semanticColors": {
-    "BACKGROUND_MENTIONED": ["#3a6ea533"],
-    "MENTION_BACKGROUND": ["#3a6ea5"],
-    "TEXT_MENTION": ["#3a6ea5"],
-    "TEXT_DEFAULT": ["#ffffff"],
-    "INPUT_BACKGROUND": ["#0b1324", "#0b1324", "#0b1324"],
-    "CHANNEL_ICON": ["#6ea8ff"],
+    "BACKGROUND_MENTIONED": ["#4f6f9f33"],
+    "MENTION_BACKGROUND": ["#4f6f9f"],
+    "TEXT_MENTION": ["#6ea8ff"],
+    "TEXT_DEFAULT": ["#e8f1ff"],
+
+    "INPUT_BACKGROUND": ["#0a1220", "#0a1220", "#0a1220"],
+
+    "CHANNEL_ICON": ["#89b8ff"],
+
     "INTERACTIVE_NORMAL": ["#4a7fc9"],
     "INTERACTIVE_HOVER": ["#6ea8ff"],
     "INTERACTIVE_ACTIVE": ["#4a7fc9"],
     "INTERACTIVE_MUTED": ["#4a7fc960"],
+
     "REDESIGN_BUTTON_SECONDARY_BORDER": ["#4a7fc9"],
-    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#6ea8ff"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#89b8ff"],
     "BUTTON_OUTLINE_BRAND_BOARDER": ["#4a7fc9"],
+
     "INPUT_BORDER": ["#4a7fc9"],
     "INPUT_BORDER_FOCUS": ["#6ea8ff"],
-    "BACKGROUND_MODIFIER_HOVER": ["#3a6ea530"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#4f6f9f30"],
     "BACKGROUND_MODIFIER_ACTIVE": ["#4a7fc930"],
     "BACKGROUND_MODIFIER_SELECTED": ["#4a7fc940"],
+
     "SCROLLBAR_THIN_THUMB": ["#6ea8ff"],
     "SCROLLBAR_THIN_TRACK": ["#4a7fc920"],
     "SCROLLBAR_AUTO_TRACK": ["#4a7fc920"],
-    "FOCUS_PRIMARY": ["#4a7fc9"],
-    "FOCUS_SECONDARY": ["#3a6ea5"],
-    "BACKGROUND_FLOATING": ["#101a33"],
-    "BACKGROUND_NESTED_FLOATING": ["#101a33"]
+
+    "FOCUS_PRIMARY": ["#6ea8ff"],
+    "FOCUS_SECONDARY": ["#4f6f9f"],
+
+    "BACKGROUND_FLOATING": ["#0f1a33"],
+    "BACKGROUND_NESTED_FLOATING": ["#0f1a33"]
   },
   "background": {
     "url": "https://raw.githubusercontent.com/ethalth/Discord-Client-Themes/main/life%20is%20strange/rain/life%20is%20strange%20-%20stormy%20lighthouse/background.jpg",
-    "alpha": 0.5,
-    "blur": 0.75
+    "alpha": 0.55,
+    "blur": 0.8
   },
   "rawColors": {
-    "BRAND_360": "#3a6ea5",
+    "BRAND_360": "#4f6f9f",
     "BRAND_500": "#4a7fc9",
 
-    "PRIMARY_700": "#0a1324",
-    "PRIMARY_230": "#0b1324",
-    "PRIMARY_300": "#0a1324",
-    "PLUM_15": "#101a33",
-    "PLUM_17": "#0b1324",
-    "PLUM_18": "#0b1324",
-    "PLUM_19": "#101a33",
-    "PLUM_20": "#0a1324",
-    "PLUM_22": "#0a1324",
-    "PLUM_23": "#101a33",
-    "PLUM_24": "#101a33"
+    "PRIMARY_700": "#070f1a",
+    "PRIMARY_230": "#0a1220",
+    "PRIMARY_300": "#070f1a",
+
+    "PLUM_15": "#0f1a33",
+    "PLUM_17": "#0a1220",
+    "PLUM_18": "#0a1220",
+    "PLUM_19": "#0f1a33",
+    "PLUM_20": "#070f1a",
+    "PLUM_22": "#070f1a",
+    "PLUM_23": "#0f1a33",
+    "PLUM_24": "#0f1a33"
   },
   "plus": {
     "version": "0",
@@ -62,10 +71,10 @@
     "icons": {
       "ic_new_pins": ["#6ea8ff"],
       "StatusStreaming": ["#4a7fc9"],
-      "StatusMobileOnline": ["#6ea8ff"],
-      "StatusDND": ["#3a6ea5"],
-      "StatusOffline": ["#0b1324"],
-      "StatusOnline": ["#6ea8ff"]
+      "StatusMobileOnline": ["#89b8ff"],
+      "StatusDND": ["#4f6f9f"],
+      "StatusOffline": ["#0a1220"],
+      "StatusOnline": ["#89b8ff"]
     }
   }
 }
