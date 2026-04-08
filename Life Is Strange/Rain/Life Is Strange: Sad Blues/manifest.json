@@ -1,38 +1,71 @@
 {
-    "manifest": {
-        "version": "1.0.0",
-        "author": "ethalth",
-        "name": "Life Is Strange"
-    },
-    "background": {
-        "url": "https://raw.githubusercontent.com/ethalth/Discord-Client-Themes/main/themes/Life%20Is%20Strange/revenge/LifeIsStrangeStorm.jpg"
-    },
-    "simple_colors": {
-        "background": "#0b1220",
-        "background_secondary": "#101a33",
-        "mention_highlight": "#3a6ea5"
-    },
-    "colors": {
-        "primary_dark_500": "#0f1a2e",
-        "primary_dark_600": "#0c1626",
-        "primary_dark_700": "#09111f",
+  "name": "Life Is Strange: Storm",
+  "description": "A stormy, revenge-inspired twist on the Life Is Strange theme",
+  "authors": [
+    {
+      "name": "ethalth",
+      "id": "1362067549990420610"
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#3a6ea533"],
+    "MENTION_BACKGROUND": ["#3a6ea5"],
+    "TEXT_MENTION": ["#3a6ea5"],
+    "TEXT_DEFAULT": ["#ffffff"],
+    "INPUT_BACKGROUND": ["#0b1324", "#0b1324", "#0b1324"],
+    "CHANNEL_ICON": ["#6ea8ff"],
+    "INTERACTIVE_NORMAL": ["#4a7fc9"],
+    "INTERACTIVE_HOVER": ["#6ea8ff"],
+    "INTERACTIVE_ACTIVE": ["#4a7fc9"],
+    "INTERACTIVE_MUTED": ["#4a7fc960"],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#4a7fc9"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#6ea8ff"],
+    "BUTTON_OUTLINE_BRAND_BOARDER": ["#4a7fc9"],
+    "INPUT_BORDER": ["#4a7fc9"],
+    "INPUT_BORDER_FOCUS": ["#6ea8ff"],
+    "BACKGROUND_MODIFIER_HOVER": ["#3a6ea530"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#4a7fc930"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#4a7fc940"],
+    "SCROLLBAR_THIN_THUMB": ["#6ea8ff"],
+    "SCROLLBAR_THIN_TRACK": ["#4a7fc920"],
+    "SCROLLBAR_AUTO_TRACK": ["#4a7fc920"],
+    "FOCUS_PRIMARY": ["#4a7fc9"],
+    "FOCUS_SECONDARY": ["#3a6ea5"],
+    "BACKGROUND_FLOATING": ["#101a33"],
+    "BACKGROUND_NESTED_FLOATING": ["#101a33"]
+  },
+  "background": {
+    "url": "https://raw.githubusercontent.com/ethalth/Discord-Client-Themes/refs/heads/main/Images/LifeIsStrangeStorm.jpg",
+    "alpha": 0.5,
+    "blur": 0.75
+  },
+  "rawColors": {
+    "BRAND_360": "#3a6ea5",
+    "BRAND_500": "#4a7fc9",
 
-        "brand_new_500": "#4f8fcf",
-        "brand_new_600": "#2f6fb0",
-
-        "status_red": "#5c86b3",
-
-        "interactive_active": "#6aa9ff",
-        "interactive_hover": "#3f78c2",
-        "interactive_muted": "#1b2d4d",
-
-        "channels_default": "#c7d9f7",
-        "channels_selected": "#6aa9ff",
-        "channels_unread": "#8fbaff"
-    },
-    "drawable_tints": {
-        "ic_launcher_foreground": "#6aa9ff",
-        "ic_notification": "#4f8fcf"
-    },
-    "raws": {}
+    "PRIMARY_700": "#0a1324",
+    "PRIMARY_230": "#0b1324",
+    "PRIMARY_300": "#0a1324",
+    "PLUM_15": "#101a33",
+    "PLUM_17": "#0b1324",
+    "PLUM_18": "#0b1324",
+    "PLUM_19": "#101a33",
+    "PLUM_20": "#0a1324",
+    "PLUM_22": "#0a1324",
+    "PLUM_23": "#101a33",
+    "PLUM_24": "#101a33"
+  },
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#6ea8ff"],
+      "StatusStreaming": ["#4a7fc9"],
+      "StatusMobileOnline": ["#6ea8ff"],
+      "StatusDND": ["#3a6ea5"],
+      "StatusOffline": ["#0b1324"],
+      "StatusOnline": ["#6ea8ff"]
+    }
+  }
 }
