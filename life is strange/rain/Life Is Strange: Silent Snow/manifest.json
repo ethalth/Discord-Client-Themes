@@ -1,0 +1,80 @@
+{
+  "name": "Life Is Strange: Silent Snow",
+  "description": "A cold, quiet winter night theme (Life Is Strange)",
+  "authors": [
+    {
+      "name": "ethalth"
+    }
+  ],
+  "spec": 2,
+  "semanticColors": {
+    "BACKGROUND_MENTIONED": ["#6fa3d233"],
+    "MENTION_BACKGROUND": ["#6fa3d2"],
+    "TEXT_MENTION": ["#9fd0ff"],
+    "TEXT_DEFAULT": ["#eaf4ff"],
+
+    "INPUT_BACKGROUND": ["#0a1220", "#0a1220", "#0a1220"],
+
+    "CHANNEL_ICON": ["#9fd0ff"],
+
+    "INTERACTIVE_NORMAL": ["#4f7fb3"],
+    "INTERACTIVE_HOVER": ["#9fd0ff"],
+    "INTERACTIVE_ACTIVE": ["#6fa3d2"],
+    "INTERACTIVE_MUTED": ["#4f7fb360"],
+
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#4f7fb3"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#d9b36a"],
+    "BUTTON_OUTLINE_BRAND_BOARDER": ["#4f7fb3"],
+
+    "INPUT_BORDER": ["#4f7fb3"],
+    "INPUT_BORDER_FOCUS": ["#9fd0ff"],
+
+    "BACKGROUND_MODIFIER_HOVER": ["#ffffff10"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff18"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#6fa3d240"],
+
+    "SCROLLBAR_THIN_THUMB": ["#9fd0ff"],
+    "SCROLLBAR_THIN_TRACK": ["#4f7fb320"],
+    "SCROLLBAR_AUTO_TRACK": ["#4f7fb320"],
+
+    "FOCUS_PRIMARY": ["#9fd0ff"],
+    "FOCUS_SECONDARY": ["#6fa3d2"],
+
+    "BACKGROUND_FLOATING": ["#0f1a3380"],
+    "BACKGROUND_NESTED_FLOATING": ["#0f1a3380"]
+  },
+  "background": {
+    "url": "https://raw.githubusercontent.com/ethalth/Discord-Client-Themes/main/life%20is%20strange/rain/life%20is%20strange%20-%20stormy%20lighthouse/background.jpg",
+    "alpha": 0.6,
+    "blur": 0.85
+  },
+  "rawColors": {
+    "BRAND_360": "#6fa3d2",
+    "BRAND_500": "#4f7fb3",
+
+    "PRIMARY_700": "#070f1a",
+    "PRIMARY_230": "#0a1220",
+    "PRIMARY_300": "#070f1a",
+
+    "PLUM_15": "#0f1a3380",
+    "PLUM_17": "#0a122080",
+    "PLUM_18": "#0a122080",
+    "PLUM_19": "#0f1a3380",
+    "PLUM_20": "#070f1a",
+    "PLUM_22": "#070f1a",
+    "PLUM_23": "#0f1a3380",
+    "PLUM_24": "#0f1a3380"
+  },
+  "plus": {
+    "version": "0",
+    "iconpack": "rosiecord-plumpy",
+    "icons": {
+      "ic_new_pins": ["#9fd0ff"],
+      "StatusStreaming": ["#4f7fb3"],
+      "StatusMobileOnline": ["#d9b36a"],
+      "StatusDND": ["#6fa3d2"],
+      "StatusOffline": ["#0a1220"],
+      "StatusOnline": ["#9fd0ff"]
+    }
+  }
+}
