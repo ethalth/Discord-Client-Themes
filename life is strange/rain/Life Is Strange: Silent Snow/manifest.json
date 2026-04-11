@@ -45,8 +45,7 @@
   },
   "background": {
     "url": "https://raw.githubusercontent.com/ethalth/Discord-Client-Themes/main/life%20is%20strange/rain/Life%20Is%20Strange%3A%20Silent%20Snow/background.jpeg",
-    "alpha": 0.6,
-    "blur": 0.85
+    "alpha": 0.6
   },
   "rawColors": {
     "BRAND_360": "#6fa3d2",
