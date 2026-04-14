@@ -1,79 +1,83 @@
 {
   "name": "Life Is Strange: Silent Snow",
-  "description": "A cold, quiet winter night theme (Life Is Strange)",
+  "description": "Cold night with warm light contrast",
   "authors": [
     {
       "name": "ethalth"
     }
   ],
   "spec": 2,
+
   "semanticColors": {
-    "BACKGROUND_MENTIONED": ["#6fa3d233"],
-    "MENTION_BACKGROUND": ["#6fa3d2"],
-    "TEXT_MENTION": ["#9fd0ff"],
-    "TEXT_DEFAULT": ["#eaf4ff"],
+    "BACKGROUND_MENTIONED": ["#e6b67622"],
+    "MENTION_BACKGROUND": ["#e6b67633"],
+    "TEXT_MENTION": ["#ffd89a"],
+    "TEXT_DEFAULT": ["#f2f1ee"],
 
-    "INPUT_BACKGROUND": ["#0a1220", "#0a1220", "#0a1220"],
+    "INPUT_BACKGROUND": ["#0b1220", "#0b1220", "#0b1220"],
 
-    "CHANNEL_ICON": ["#9fd0ff"],
+    "CHANNEL_ICON": ["#9aa4b2"],
 
-    "INTERACTIVE_NORMAL": ["#4f7fb3"],
-    "INTERACTIVE_HOVER": ["#9fd0ff"],
-    "INTERACTIVE_ACTIVE": ["#6fa3d2"],
-    "INTERACTIVE_MUTED": ["#4f7fb360"],
+    "INTERACTIVE_NORMAL": ["#6c8fb8"],
+    "INTERACTIVE_HOVER": ["#ffd89a"],
+    "INTERACTIVE_ACTIVE": ["#e6b676"],
+    "INTERACTIVE_MUTED": ["#6c8fb860"],
 
-    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#4f7fb3"],
-    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#d9b36a"],
-    "BUTTON_OUTLINE_BRAND_BOARDER": ["#4f7fb3"],
+    "REDESIGN_BUTTON_SECONDARY_BORDER": ["#6c8fb8"],
+    "BUTTON_OUTLINE_BRAND_BACKGROUND": ["#e6b676"],
+    "BUTTON_OUTLINE_BRAND_BORDER": ["#6c8fb8"],
 
-    "INPUT_BORDER": ["#4f7fb3"],
-    "INPUT_BORDER_FOCUS": ["#9fd0ff"],
+    "INPUT_BORDER": ["#2a3a55"],
+    "INPUT_BORDER_FOCUS": ["#e6b676"],
 
-    "BACKGROUND_MODIFIER_HOVER": ["#ffffff10"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff18"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#6fa3d240"],
+    "BACKGROUND_MODIFIER_HOVER": ["#ffffff08"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff12"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#e6b67622"],
 
-    "SCROLLBAR_THIN_THUMB": ["#9fd0ff"],
-    "SCROLLBAR_THIN_TRACK": ["#4f7fb320"],
-    "SCROLLBAR_AUTO_TRACK": ["#4f7fb320"],
+    "SCROLLBAR_THIN_THUMB": ["#6c8fb8"],
+    "SCROLLBAR_THIN_TRACK": ["#1a2438"],
+    "SCROLLBAR_AUTO_TRACK": ["#1a2438"],
 
-    "FOCUS_PRIMARY": ["#9fd0ff"],
-    "FOCUS_SECONDARY": ["#6fa3d2"],
+    "FOCUS_PRIMARY": ["#ffd89a"],
+    "FOCUS_SECONDARY": ["#6c8fb8"],
 
-    "BACKGROUND_FLOATING": ["#0f1a3380"],
-    "BACKGROUND_NESTED_FLOATING": ["#0f1a3380"]
+    "BACKGROUND_FLOATING": ["#0b1220cc"],
+    "BACKGROUND_NESTED_FLOATING": ["#0b1220cc"]
   },
+
   "background": {
     "url": "https://raw.githubusercontent.com/ethalth/Discord-Client-Themes/main/life%20is%20strange/rain/Life%20Is%20Strange%3A%20Silent%20Snow/background.jpeg",
-    "alpha": 0.6
+    "alpha": 0.65
   },
+
   "rawColors": {
-    "BRAND_360": "#6fa3d2",
-    "BRAND_500": "#4f7fb3",
+    "BRAND_360": "#6c8fb8",
+    "BRAND_500": "#4e6f96",
 
-    "PRIMARY_700": "#070f1a",
-    "PRIMARY_230": "#0a1220",
-    "PRIMARY_300": "#070f1a",
+    "PRIMARY_700": "#080f1a",
+    "PRIMARY_230": "#0b1220",
+    "PRIMARY_300": "#080f1a",
 
-    "PLUM_15": "#0f1a3380",
-    "PLUM_17": "#0a122080",
-    "PLUM_18": "#0a122080",
-    "PLUM_19": "#0f1a3380",
-    "PLUM_20": "#070f1a",
-    "PLUM_22": "#070f1a",
-    "PLUM_23": "#0f1a3380",
-    "PLUM_24": "#0f1a3380"
+    "PLUM_15": "#0b1220cc",
+    "PLUM_17": "#0b122099",
+    "PLUM_18": "#0b122099",
+    "PLUM_19": "#0b1220cc",
+    "PLUM_20": "#080f1a",
+    "PLUM_22": "#080f1a",
+    "PLUM_23": "#0b1220cc",
+    "PLUM_24": "#0b1220cc"
   },
+
   "plus": {
     "version": "0",
     "iconpack": "rosiecord-plumpy",
     "icons": {
-      "ic_new_pins": ["#9fd0ff"],
-      "StatusStreaming": ["#4f7fb3"],
-      "StatusMobileOnline": ["#d9b36a"],
-      "StatusDND": ["#6fa3d2"],
-      "StatusOffline": ["#0a1220"],
-      "StatusOnline": ["#9fd0ff"]
+      "ic_new_pins": ["#ffd89a"],
+      "StatusStreaming": ["#6c8fb8"],
+      "StatusMobileOnline": ["#e6b676"],
+      "StatusDND": ["#c94a4a"],
+      "StatusOffline": ["#0b1220"],
+      "StatusOnline": ["#9aa4b2"]
     }
   }
 }
